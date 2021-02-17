@@ -18,9 +18,9 @@ RUN bash script.deb.sh
 
 RUN apt-get install -y git-lfs
 
-RUN git clone https://huggingface.co/jihopark/KoCulture-large
+RUN git clone https://huggingface.co/jihopark/KoCulture-Large
 
-WORKDIR /app/KoCulture-large
+WORKDIR /app/KoCulture-Large
 
 RUN cat a.tar* | tar xvf -
 

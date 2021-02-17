@@ -16,8 +16,8 @@ BATCH_SIZE = 1
 CHECK_INTERVAL = 0.1
 
 
-tokenizer = AutoTokenizer.from_pretrained("./KoCulture-large/")
-model = AutoModelWithLMHead.from_pretrained("./KoCulture-large/", return_dict=True)
+tokenizer = AutoTokenizer.from_pretrained("./KoCulture-Large/")
+model = AutoModelWithLMHead.from_pretrained("./KoCulture-Large/", return_dict=True)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
