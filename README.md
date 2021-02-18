@@ -1,7 +1,7 @@
-# GPT2-colloquial-large
+# GPT2-KoCulture-large
 [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/bakjiho/GPT2-KoCulture-Large)
 
-GPT2-colloquial-large
+GPT2-KoCulture-large
 =================
 * generate colloquials with gpt2-large
 
